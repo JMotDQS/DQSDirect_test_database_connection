@@ -1,0 +1,22 @@
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ignore ALL .log files
+*.log
+# ignore ALL .sql files
+*.sql
+# ignore ALL .config files
+*.config
+
+# ignore ALL files in ANY directory named SQL
+SQL/
+# ignore ALL files in ANY directory named aspnet_client
+aspnet_client/
