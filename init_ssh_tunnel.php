@@ -31,22 +31,22 @@
 	$dbName = 'detroit';
 	$dbUser = 'root';
 	$dbPass = 'Rkakfsus97313';
-	$dsn = "mysql:host=$dbHost;port = $dbPort;dbname = $dbName";
+	$dsn = "mysql:host = $dbHost;port = $dbPort;dbname = $dbName";
 
-	try {
+	/*try {
 		$pdo = new PDO($dsn, $dbUser, $dbPass);
 		if($pdo) {
 			echo "<br />Connected to the $dbName database successfully!";
 		}
 	} catch(PDOException $e) {
 		echo "<br />".$e->getMessage();
-	}
+	}*/
 
-	/*$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
+	$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
     if($conn->connect_error) {
         die("Connection failed: ".$conn->connect_error);
     } else {
         echo "Connection Made";
-    }*/
+    }
 	
 ?>
