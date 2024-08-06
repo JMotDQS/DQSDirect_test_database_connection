@@ -148,3 +148,8 @@ Stack trace:
 #0 C:\inetpub\wwwroot\DQSDirect_test_database_connection\test_connect.php(4): mysqli_connect('3.14.37.218:330...', 'root', 'Rkakfsus97313', 'detroit')
 #1 {main}
   thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\test_connect.php on line 4
+[06-Aug-2024 15:13:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\inetpub\wwwroot\DQSDirect_test_database_connection\test_connect.php:4
+Stack trace:
+#0 C:\inetpub\wwwroot\DQSDirect_test_database_connection\test_connect.php(4): mysqli_connect('3.14.37.218:330...', 'root', 'Rkakfsus97313', 'detroit')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\test_connect.php on line 4
