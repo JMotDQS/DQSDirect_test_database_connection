@@ -1,4 +1,5 @@
 <?php
+/*
 	// Define the paths to the shell scripts
 	$createTunnelScript = __DIR__ . '/create_ssh_tunnel.sh';
 	$makeExecutableScript = __DIR__ . '/make_executable.sh';
@@ -21,12 +22,12 @@
 
 	echo "SSH tunnel established successfully.";
 	// Continue with the rest of the initialization if needed
-
-	$dbHost = 'localhost';
-	//$dbHost = '127.0.0.1';
+*/
+	//$dbHost = 'localhost';
+	$dbHost = '127.0.0.1';
 	// localhost due to SSH tunnel
 
-	//$dbPort = '';
+	//$dbPort = '22';
 	$dbPort = '3306';
 	// the local port you specified in the SSH tunnel script
 
@@ -43,20 +44,20 @@
 	echo "dbPass: ".$dbPass."<br />";
 	echo "dsn: ".$dsn."<br /><br />";
 
-	try {
+	/*try {
 		$pdo = new PDO($dsn, $dbUser, $dbPass);
 		if($pdo) {
 			echo "<br />Connected to the $dbName database successfully!";
 		}
 	} catch(PDOException $e) {
 		echo "<br />".$e->getMessage();
-	}
+	}*/
 
-	/*$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
+	$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
     if($conn->connect_error) {
         die("Connection failed: ".$conn->connect_error);
     } else {
         echo "Connection Made";
-    }*/
+    }
 	
 ?>
