@@ -153,3 +153,51 @@ Stack trace:
 #0 C:\inetpub\wwwroot\DQSDirect_test_database_connection\test_connect.php(4): mysqli_connect('3.14.37.218:330...', 'root', 'Rkakfsus97313', 'detroit')
 #1 {main}
   thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\test_connect.php on line 4
+[09-Aug-2024 13:10:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:56
+Stack trace:
+#0 C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php(56): mysqli_connect('127.0.0.1', 'root', 'Rkakfsus97313', 'detroit')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 56
+[09-Aug-2024 13:25:13 UTC] PHP Warning:  Undefined variable $connection in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 66
+[09-Aug-2024 13:25:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 66
+[09-Aug-2024 13:25:44 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 74
+[09-Aug-2024 13:27:03 UTC] PHP Warning:  Array to string conversion in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 74
+[09-Aug-2024 13:27:21 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 74
+[09-Aug-2024 13:28:35 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:75
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 75
+[09-Aug-2024 13:28:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:75
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 75
+[09-Aug-2024 13:30:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:76
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 76
+[09-Aug-2024 13:30:45 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:76
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 76
+[09-Aug-2024 13:31:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:75
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 75
+[09-Aug-2024 13:32:42 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:76
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 76
+[09-Aug-2024 13:40:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php:57
+Stack trace:
+#0 C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php(57): mysqli_connect('127.0.0.1', 'root', 'Rkakfsus97313', 'detroit')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\DQSDirect_test_database_connection\init_ssh_tunnel.php on line 57

@@ -1,5 +1,5 @@
-bashCopy code#!/bin/bashssh -f -i ssh_key_pair_token.pem -N -L
-#bashCopy code#!/bin/bashssh -f -i dqs.ppk -N -L
+#bashCopy code#!/bin/bashssh -f -i ssh_key_pair_token.pem -N -L
+bashCopy code#!/bin/bashssh -f -i dqs.ppk -N -L
 22:localhost:3306
 ec2-user@ec2-3-14-37-218.us-east-2.compute.amazonaws.com
 
