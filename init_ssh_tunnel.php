@@ -53,6 +53,8 @@
 		echo "<br />".$e->getMessage();
 	}*/
 
+	$test = 'riv';
+
 	$return_array = [];
 	$connection = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
     if($connection->connect_error) {
@@ -60,9 +62,11 @@
     } else {
         echo "Connection Made<br /><br />";
 
-		$sql = "SELECT id, first_name, last_name, badge, approved, activated
-				FROM users
-				WHERE first_name = 'River'";
+		$sql = "SELECT id, badge, first_name, last_name, email, approved, activated
+                FROM users
+                WHERE first_name LIKE '%".$test."%'
+                    OR last_name LIKE '%".$test."%'
+                ORDER BY last_name ASC";
 		$res = $connection->query($sql);
     }
 
